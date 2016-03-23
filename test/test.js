@@ -1,5 +1,5 @@
 var string = require("../lib/string.js");
 
-var str = "   asdf   \r\n     ";
+var str = "{1}   asdf   \r\n     {2}";
 
-console.log(string.trim(str));
+console.log(string.sha1(str));
