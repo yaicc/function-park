@@ -21,6 +21,7 @@ function-park is an common functions package for Nodejs。
 | ltrim       | Used for trimming whitespace at left |
 | rtrim       | Used for trimming whitespace at right |
 | left        | Return part of a string from left |
+| right       | Return part of a string from right |
 | ucfirst     | Uppercase the first character of a string |
 | lcfirst     | Lowercase the first character of a string |
 | md5         | Calculate the md5 hash of a string |
