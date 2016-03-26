@@ -12,8 +12,20 @@ function-park是一个js/nodejs常用方法包。
 ### string.js
 
 	var S = require('function-park').string;
+	
+##### Function list
 
-#### Example
+| Name        | Description     |
+| ----------- |:--------------- |
+|trim   |Used for trimming whitespace|
+|ltrim  |Used for trimming whitespace at left|
+|rtrim  |Used for trimming whitespace at right|
+|ucfirst|Uppercase the first character of a string|
+|lcfirst|Lowercase the first character of a string|
+|md5    |Calculate the md5 hash of a string|
+|sha1   |Calculate the sha1 hash of a string|
+
+##### Example
 
 ```javascript
 var S = require('function-park').string;
