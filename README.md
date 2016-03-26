@@ -1,7 +1,7 @@
 function-park
 =====
 
-function-park是一个js/nodejs常用方法包。
+function-park is an common functions package for Nodejs。
 
 ## Installation
 
