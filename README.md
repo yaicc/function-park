@@ -26,8 +26,9 @@ function-park is an common functions package for Nodejs。
 | lcfirst     | Lowercase the first character of a string |
 | md5         | Calculate the md5 hash of a string |
 | sha1        | Calculate the sha1 hash of a string |
-| isEmail     | Is an email string or not |
-| isIp        | Is an ip string or not |
+| is_email    | Is an email string or not |
+| is_ip       | Is an ip string or not |
+| strip_tags  | Strip HTML tags from a string |
 
 ##### Example
 
