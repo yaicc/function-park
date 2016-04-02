@@ -20,7 +20,8 @@ console.log("\r\nIp string will be test: " + ip);
 console.log("\r\nfunction is_ip: S(ip).is_ip()\r\n==================== \r\n" + S(ip).is_ip());
 console.log("\r\nHtml string will be test: " + html);
 console.log("\r\nfunction strip_tags: S(html).strip_tags()\r\n==================== \r\n" + S(html).strip_tags());
-console.log("\r\nfunction strip_tags: S(html).strip_tags('div')\r\n==================== \r\n" + S(html).strip_tags(['div', 'br']));
+console.log("\r\nfunction strip_tags: S(html).strip_tags(['div', 'br'])\r\n==================== \r\n" + S(html).strip_tags(['div', 'br']));
+console.log("\r\nfunction strip_tags: S(html).strip_tags('div', 'br')\r\n==================== \r\n" + S(html).strip_tags('div', 'br'));
 
 S.extendToString();
 
